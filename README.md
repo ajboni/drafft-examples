@@ -16,7 +16,7 @@ Description: A visual novel about the zodiac.
 >
 
 Writer: Sara Santos  
-Adaptation to App: Alexis Boni  	
+Adaptation to App: Alexis Boni  
 Description: A Mockup for a point and click game about a heist. Work in progress.  
 
 ## How to import them in the app?

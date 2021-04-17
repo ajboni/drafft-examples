@@ -13,8 +13,10 @@ Description: A visual novel about the zodiac.
 ### One Bullet
 
 > Rumor says, it is a bullet capable of erasing someone's existence.  
+>
+
 Writer: Sara Santos  
-Adaptation to App: Alexis Boni  
+Adaptation to App: Alexis Boni  	
 Description: A Mockup for a point and click game about a heist. Work in progress.  
 
 ## How to import them in the app?

@@ -1,0 +1,23 @@
+{
+  "name": "drafft-examples",
+  "version": "1.0.0",
+  "description": "Small sample projects for [Drafft](https://baj.itch.io/drafft).",
+  "homepage": "https://github.com/ajboni/drafft-examples#readme",
+  "bugs": {
+    "url": "https://github.com/ajboni/drafft-examples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajboni/drafft-examples.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "migrate-to-v2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "turndown": "^7.2.0"
+  }
+}

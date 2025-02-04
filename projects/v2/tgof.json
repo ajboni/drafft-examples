@@ -43,7 +43,179 @@
       },
       "doc": {
         "name": "03 - Kenji Look for Scorpio",
-        "content": "",
+        "content": {
+          "tree": {
+            "nodes": [
+              {
+                "id": "af76a80f-25c3-4aa1-adba-8f037a4a4e0d",
+                "position": {
+                  "x": 146.04266357421875,
+                  "y": 318.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "1 - Start ",
+                  "handles": [
+                    {
+                      "id": "28cd8c2e-42dc-4987-a64f-8841d16db312",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "start"
+                }
+              },
+              {
+                "id": "fd808194-50d0-4f26-b9a3-5131201beb06",
+                "position": {
+                  "x": 332.04266357421875,
+                  "y": 296.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "2 - Script",
+                  "handles": [
+                    {
+                      "id": "727b10e5-b5b6-4e7d-b30c-587ddac1ba5b",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "27fd15ad-af8d-4588-9e49-174e63fab66d",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "9ee14fe5-0eec-4a98-8a9a-afc8a20a5132",
+                "position": {
+                  "x": 598.0426635742188,
+                  "y": 242.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "3 - Choice",
+                  "handles": [
+                    {
+                      "id": "5fe1007d-abfa-4b1c-aa69-ca9c477886dd",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "73e3b7d4-d37c-4959-af50-26fae7c6c41b",
+                      "type": "source",
+                      "label": "Just reassure her again."
+                    },
+                    {
+                      "id": "2a9026ee-7df1-4a8e-a2b6-d7f04a00f776",
+                      "type": "source",
+                      "label": "Touch her hand (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              },
+              {
+                "id": "a16c62af-95c9-4995-bc21-fc540e093df2",
+                "position": {
+                  "x": 1107.9250750098163,
+                  "y": 204.7672977023579
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "5 - End ",
+                  "handles": [
+                    {
+                      "id": "d7220774-8b71-4de5-bb03-83d42f833e9b",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "4712ae7d-3d3a-4918-b8df-5a0459705656",
+                "position": {
+                  "x": 1115.8411650263731,
+                  "y": 363.0890980334979
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "6 - End ",
+                  "handles": [
+                    {
+                      "id": "9b6a5829-35ac-47d6-8e68-b0adedcb949d",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              }
+            ],
+            "edges": [
+              {
+                "edgeId": "10783d0b-458c-43da-9129-cba3c1eff604",
+                "id": "10783d0b-458c-43da-9129-cba3c1eff604",
+                "key": "10783d0b-458c-43da-9129-cba3c1eff604",
+                "source": "af76a80f-25c3-4aa1-adba-8f037a4a4e0d",
+                "target": "fd808194-50d0-4f26-b9a3-5131201beb06",
+                "sourceHandle": "28cd8c2e-42dc-4987-a64f-8841d16db312",
+                "targetHandle": "727b10e5-b5b6-4e7d-b30c-587ddac1ba5b",
+                "animated": false
+              },
+              {
+                "edgeId": "e91650bb-efe5-413b-9a1e-918d7ceea543",
+                "id": "e91650bb-efe5-413b-9a1e-918d7ceea543",
+                "key": "e91650bb-efe5-413b-9a1e-918d7ceea543",
+                "source": "fd808194-50d0-4f26-b9a3-5131201beb06",
+                "target": "9ee14fe5-0eec-4a98-8a9a-afc8a20a5132",
+                "sourceHandle": "27fd15ad-af8d-4588-9e49-174e63fab66d",
+                "targetHandle": "5fe1007d-abfa-4b1c-aa69-ca9c477886dd",
+                "animated": false
+              },
+              {
+                "edgeId": "7b49c02d-6bc5-44d7-9969-913d573b176e",
+                "id": "7b49c02d-6bc5-44d7-9969-913d573b176e",
+                "key": "7b49c02d-6bc5-44d7-9969-913d573b176e",
+                "source": "9ee14fe5-0eec-4a98-8a9a-afc8a20a5132",
+                "target": "a16c62af-95c9-4995-bc21-fc540e093df2",
+                "sourceHandle": "73e3b7d4-d37c-4959-af50-26fae7c6c41b",
+                "targetHandle": "d7220774-8b71-4de5-bb03-83d42f833e9b",
+                "animated": false
+              },
+              {
+                "edgeId": "5e9b31ee-a4ef-4473-b19e-78c357924ca7",
+                "id": "5e9b31ee-a4ef-4473-b19e-78c357924ca7",
+                "key": "5e9b31ee-a4ef-4473-b19e-78c357924ca7",
+                "source": "9ee14fe5-0eec-4a98-8a9a-afc8a20a5132",
+                "target": "4712ae7d-3d3a-4918-b8df-5a0459705656",
+                "sourceHandle": "2a9026ee-7df1-4a8e-a2b6-d7f04a00f776",
+                "targetHandle": "9b6a5829-35ac-47d6-8e68-b0adedcb949d",
+                "animated": false
+              }
+            ]
+          }
+        },
         "type": "Dialogue",
         "parent": "a7d4af12-6e73-4a9b-8c24-aac0c168f02e",
         "icon": "message",
@@ -610,7 +782,179 @@
       },
       "doc": {
         "name": "03 - Aries visits Kenji",
-        "content": "",
+        "content": {
+          "tree": {
+            "nodes": [
+              {
+                "id": "1e55314e-17a4-4882-89ef-d20fd79ce84f",
+                "position": {
+                  "x": 158.0406494140625,
+                  "y": 326.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "1 - Start ",
+                  "handles": [
+                    {
+                      "id": "914571ca-a2c8-4bfa-b0e4-e8d33dc06ead",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "start"
+                }
+              },
+              {
+                "id": "8ec67812-88e9-46a4-a6fa-eda60ba9ea9b",
+                "position": {
+                  "x": 330.0406494140625,
+                  "y": 302.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "Kenji finds Aries",
+                  "handles": [
+                    {
+                      "id": "76d1ee74-1374-4461-928a-f692ecd03ca4",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "06961818-d1f2-4aff-a2d5-ff677c549aee",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "444278c3-b082-4135-a2ad-982bf77f1bef",
+                "position": {
+                  "x": 584.0406494140625,
+                  "y": 262.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "3 - Choice",
+                  "handles": [
+                    {
+                      "id": "bc255f87-1428-43b6-8305-4f39c11bb513",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "4d014c70-f7b7-43c9-af8b-db0cd2836cd2",
+                      "type": "source",
+                      "label": "Stop her to say something stupid."
+                    },
+                    {
+                      "id": "51769bea-bb0d-4568-8c4b-3b1a5db00c03",
+                      "type": "source",
+                      "label": "Stop her to say that you love her. (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              },
+              {
+                "id": "f9042c2f-7ba7-4a2e-b511-d343f80c7c33",
+                "position": {
+                  "x": 1184.0406494140625,
+                  "y": 228.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "4 - End ",
+                  "handles": [
+                    {
+                      "id": "9250344c-6e60-4fa7-a17e-6ade88a615bd",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "83d1b3bf-8db1-43be-807e-d674dbf1a33f",
+                "position": {
+                  "x": 1184.0406494140625,
+                  "y": 368.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "5 - End ",
+                  "handles": [
+                    {
+                      "id": "be10e929-5808-4830-a59b-be80bb098819",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              }
+            ],
+            "edges": [
+              {
+                "edgeId": "a8d62ced-d730-4756-8a08-98c29d7632ee",
+                "id": "a8d62ced-d730-4756-8a08-98c29d7632ee",
+                "key": "a8d62ced-d730-4756-8a08-98c29d7632ee",
+                "source": "1e55314e-17a4-4882-89ef-d20fd79ce84f",
+                "target": "8ec67812-88e9-46a4-a6fa-eda60ba9ea9b",
+                "sourceHandle": "914571ca-a2c8-4bfa-b0e4-e8d33dc06ead",
+                "targetHandle": "76d1ee74-1374-4461-928a-f692ecd03ca4",
+                "animated": false
+              },
+              {
+                "edgeId": "93852887-fafb-4388-a3a8-3258a887ed74",
+                "id": "93852887-fafb-4388-a3a8-3258a887ed74",
+                "key": "93852887-fafb-4388-a3a8-3258a887ed74",
+                "source": "8ec67812-88e9-46a4-a6fa-eda60ba9ea9b",
+                "target": "444278c3-b082-4135-a2ad-982bf77f1bef",
+                "sourceHandle": "06961818-d1f2-4aff-a2d5-ff677c549aee",
+                "targetHandle": "bc255f87-1428-43b6-8305-4f39c11bb513",
+                "animated": false
+              },
+              {
+                "edgeId": "d3c26bfa-03ae-49c6-89af-a799cb942e2d",
+                "id": "d3c26bfa-03ae-49c6-89af-a799cb942e2d",
+                "key": "d3c26bfa-03ae-49c6-89af-a799cb942e2d",
+                "source": "444278c3-b082-4135-a2ad-982bf77f1bef",
+                "target": "83d1b3bf-8db1-43be-807e-d674dbf1a33f",
+                "sourceHandle": "51769bea-bb0d-4568-8c4b-3b1a5db00c03",
+                "targetHandle": "be10e929-5808-4830-a59b-be80bb098819",
+                "animated": false
+              },
+              {
+                "edgeId": "a08036e2-6881-4003-bc9c-bf252710e5f5",
+                "id": "a08036e2-6881-4003-bc9c-bf252710e5f5",
+                "key": "a08036e2-6881-4003-bc9c-bf252710e5f5",
+                "source": "444278c3-b082-4135-a2ad-982bf77f1bef",
+                "target": "f9042c2f-7ba7-4a2e-b511-d343f80c7c33",
+                "sourceHandle": "4d014c70-f7b7-43c9-af8b-db0cd2836cd2",
+                "targetHandle": "9250344c-6e60-4fa7-a17e-6ade88a615bd",
+                "animated": false
+              }
+            ]
+          }
+        },
         "type": "Dialogue",
         "parent": "b75e04cc-50d1-4054-8d2b-f97294974673",
         "icon": "message",
@@ -1404,7 +1748,290 @@
       },
       "doc": {
         "name": "01 - Aries Encounter",
-        "content": "",
+        "content": {
+          "tree": {
+            "nodes": [
+              {
+                "id": "999c729f-8279-42a4-870d-5dbc60f8a8f9",
+                "position": {
+                  "x": -1687.9084579639332,
+                  "y": -308.3235822536684
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "Aries encounter",
+                  "handles": [
+                    {
+                      "id": "9a9097d0-eee4-447a-98b3-c3e6c337c9bc",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "072aabff-445c-498d-8e1c-040737fea28c",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "a4b92951-c8c8-42ad-8e40-d37bb478691d",
+                "position": {
+                  "x": -1439.7636692321814,
+                  "y": -321.0489560347838
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "22 - Choice",
+                  "handles": [
+                    {
+                      "id": "dd5d8e8b-3c6f-4c10-b116-d4630ab79d2e",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "c0429aaf-786c-409b-b719-4de897d1fbf1",
+                      "type": "source",
+                      "label": "I don't know if I agree with you."
+                    },
+                    {
+                      "id": "132e9943-2da8-43d7-b46a-f3e0b07bc4cd",
+                      "type": "source",
+                      "label": "I think so too. (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              },
+              {
+                "id": "0aa41b68-513c-43b7-aaf3-84feb56caa5e",
+                "position": {
+                  "x": -893.3517394085708,
+                  "y": -261.95954122058924
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "Aries finds pet",
+                  "handles": [
+                    {
+                      "id": "6e266011-38f5-45be-b363-898835a7fbc6",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "0b051972-7d2d-4d34-ae7a-1f10d4fa1617",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "17eb0f4b-44d7-400a-aba1-534890f319ae",
+                "position": {
+                  "x": -1875.6077212353864,
+                  "y": -311.5049256989472
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "24 - Start ",
+                  "handles": [
+                    {
+                      "id": "0ed3b852-8ade-4b72-aa53-e813157a1eb7",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "start"
+                }
+              },
+              {
+                "id": "5e7dfaa0-ddf4-47f8-990d-ec6e2e3f3bc6",
+                "position": {
+                  "x": -654.687420569878,
+                  "y": -363.8000270929832
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "25 - Choice",
+                  "handles": [
+                    {
+                      "id": "295f7061-d576-4842-be65-fb0b8b1e746c",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "fd460795-b2aa-4dd4-8590-c70daaefb8f0",
+                      "type": "source",
+                      "label": "Say nothing."
+                    },
+                    {
+                      "id": "4f760d20-dab3-4cb1-914d-df6a4b329101",
+                      "type": "source",
+                      "label": "Ask her if you can visit her again in the forest. (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              },
+              {
+                "id": "8397240d-a578-4574-be19-e6de0fc6b467",
+                "position": {
+                  "x": -893.369856350105,
+                  "y": -411.70876671465
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "27 - End ",
+                  "handles": [
+                    {
+                      "id": "477b05fc-ad92-4712-b25d-d0ba39ca9888",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "20edebbe-707d-4ad9-8082-fd8c414f9acd",
+                "position": {
+                  "x": 65.98871781229705,
+                  "y": -430.7568018258802
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "30 - End ",
+                  "handles": [
+                    {
+                      "id": "6f380b9f-ced5-4451-845b-66e822da9d60",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "fe72a93b-4899-4aa9-9e7b-b4a93fbeb4a2",
+                "position": {
+                  "x": 68.18931143355515,
+                  "y": -209.81070149488167
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "31 - End ",
+                  "handles": [
+                    {
+                      "id": "89aac09b-f5c9-452b-997b-c6e41a9df114",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              }
+            ],
+            "edges": [
+              {
+                "edgeId": "feeecb0c-9875-452f-a474-f20f73924918",
+                "id": "feeecb0c-9875-452f-a474-f20f73924918",
+                "key": "feeecb0c-9875-452f-a474-f20f73924918",
+                "source": "999c729f-8279-42a4-870d-5dbc60f8a8f9",
+                "target": "a4b92951-c8c8-42ad-8e40-d37bb478691d",
+                "sourceHandle": "072aabff-445c-498d-8e1c-040737fea28c",
+                "targetHandle": "dd5d8e8b-3c6f-4c10-b116-d4630ab79d2e",
+                "animated": false
+              },
+              {
+                "edgeId": "bc3740ca-8b79-41cd-af44-c8740b166443",
+                "id": "bc3740ca-8b79-41cd-af44-c8740b166443",
+                "key": "bc3740ca-8b79-41cd-af44-c8740b166443",
+                "source": "17eb0f4b-44d7-400a-aba1-534890f319ae",
+                "target": "999c729f-8279-42a4-870d-5dbc60f8a8f9",
+                "sourceHandle": "0ed3b852-8ade-4b72-aa53-e813157a1eb7",
+                "targetHandle": "9a9097d0-eee4-447a-98b3-c3e6c337c9bc",
+                "animated": false
+              },
+              {
+                "edgeId": "d1f5d36d-df73-442b-ae72-8307455f6dc9",
+                "id": "d1f5d36d-df73-442b-ae72-8307455f6dc9",
+                "key": "d1f5d36d-df73-442b-ae72-8307455f6dc9",
+                "source": "a4b92951-c8c8-42ad-8e40-d37bb478691d",
+                "target": "0aa41b68-513c-43b7-aaf3-84feb56caa5e",
+                "sourceHandle": "132e9943-2da8-43d7-b46a-f3e0b07bc4cd",
+                "targetHandle": "6e266011-38f5-45be-b363-898835a7fbc6",
+                "animated": false
+              },
+              {
+                "edgeId": "531742fe-f219-4f0a-970e-f345b68781d0",
+                "id": "531742fe-f219-4f0a-970e-f345b68781d0",
+                "key": "531742fe-f219-4f0a-970e-f345b68781d0",
+                "source": "a4b92951-c8c8-42ad-8e40-d37bb478691d",
+                "target": "8397240d-a578-4574-be19-e6de0fc6b467",
+                "sourceHandle": "c0429aaf-786c-409b-b719-4de897d1fbf1",
+                "targetHandle": "477b05fc-ad92-4712-b25d-d0ba39ca9888",
+                "animated": false
+              },
+              {
+                "edgeId": "03aab003-c229-4a1c-8112-c21075b35642",
+                "id": "03aab003-c229-4a1c-8112-c21075b35642",
+                "key": "03aab003-c229-4a1c-8112-c21075b35642",
+                "source": "0aa41b68-513c-43b7-aaf3-84feb56caa5e",
+                "target": "5e7dfaa0-ddf4-47f8-990d-ec6e2e3f3bc6",
+                "sourceHandle": "0b051972-7d2d-4d34-ae7a-1f10d4fa1617",
+                "targetHandle": "295f7061-d576-4842-be65-fb0b8b1e746c",
+                "animated": false
+              },
+              {
+                "edgeId": "c236115b-20ef-4388-8e04-9767b8d5e021",
+                "id": "c236115b-20ef-4388-8e04-9767b8d5e021",
+                "key": "c236115b-20ef-4388-8e04-9767b8d5e021",
+                "source": "5e7dfaa0-ddf4-47f8-990d-ec6e2e3f3bc6",
+                "target": "20edebbe-707d-4ad9-8082-fd8c414f9acd",
+                "sourceHandle": "fd460795-b2aa-4dd4-8590-c70daaefb8f0",
+                "targetHandle": "6f380b9f-ced5-4451-845b-66e822da9d60",
+                "animated": false
+              },
+              {
+                "edgeId": "a5ab1d8f-d85b-47e1-a01c-e072e3a61a69",
+                "id": "a5ab1d8f-d85b-47e1-a01c-e072e3a61a69",
+                "key": "a5ab1d8f-d85b-47e1-a01c-e072e3a61a69",
+                "source": "5e7dfaa0-ddf4-47f8-990d-ec6e2e3f3bc6",
+                "target": "fe72a93b-4899-4aa9-9e7b-b4a93fbeb4a2",
+                "sourceHandle": "4f760d20-dab3-4cb1-914d-df6a4b329101",
+                "targetHandle": "89aac09b-f5c9-452b-997b-c6e41a9df114",
+                "animated": false
+              }
+            ]
+          }
+        },
         "type": "Dialogue",
         "parent": "b75e04cc-50d1-4054-8d2b-f97294974673",
         "icon": "message",
@@ -2055,14 +2682,30 @@
         "name": "01 - Aries Encounter",
         "parent": "DialogueFolder",
         "children": [
-          "e65dd7f1-39b6-4c45-b480-39cfbd3aa926",
-          "0fae3b33-5181-49d3-ad84-ea2d6e5eedc8",
-          "4c2f82c1-7afb-436a-b274-fac9fe4765cc",
-          "adbea972-7ac4-4bac-9905-5e10e23245f9",
-          "2cbbf2ad-a1bc-476c-82b0-05aec9d701fa",
-          "bd507be2-1aa3-4660-824c-bc112e963764",
-          "359c88a3-9c90-4429-a121-b85283297c75",
-          "17cee952-ba46-495f-b842-62f9f26f0524"
+          {
+            "_id": "e65dd7f1-39b6-4c45-b480-39cfbd3aa926"
+          },
+          {
+            "_id": "0fae3b33-5181-49d3-ad84-ea2d6e5eedc8"
+          },
+          {
+            "_id": "4c2f82c1-7afb-436a-b274-fac9fe4765cc"
+          },
+          {
+            "_id": "adbea972-7ac4-4bac-9905-5e10e23245f9"
+          },
+          {
+            "_id": "2cbbf2ad-a1bc-476c-82b0-05aec9d701fa"
+          },
+          {
+            "_id": "bd507be2-1aa3-4660-824c-bc112e963764"
+          },
+          {
+            "_id": "359c88a3-9c90-4429-a121-b85283297c75"
+          },
+          {
+            "_id": "17cee952-ba46-495f-b842-62f9f26f0524"
+          }
         ],
         "type": "Folder",
         "icon": "message",
@@ -2120,11 +2763,21 @@
         "name": "03 - Aries visits Kenji",
         "parent": "DialogueFolder",
         "children": [
-          "7abb73ee-3bb9-4237-82a3-872e0c41a97d",
-          "33294ba4-02f8-4551-805e-3d19ea33e21f",
-          "9aef65fc-8644-450b-acb8-506a6c6950d2",
-          "ff37e8b5-de72-4bda-a4ba-c037747da7e4",
-          "3125480e-9650-4c7c-83cc-0858a67b9d4c"
+          {
+            "_id": "7abb73ee-3bb9-4237-82a3-872e0c41a97d"
+          },
+          {
+            "_id": "33294ba4-02f8-4551-805e-3d19ea33e21f"
+          },
+          {
+            "_id": "9aef65fc-8644-450b-acb8-506a6c6950d2"
+          },
+          {
+            "_id": "ff37e8b5-de72-4bda-a4ba-c037747da7e4"
+          },
+          {
+            "_id": "3125480e-9650-4c7c-83cc-0858a67b9d4c"
+          }
         ],
         "type": "Folder",
         "icon": "message",
@@ -2279,7 +2932,231 @@
       },
       "doc": {
         "name": "02 - Kenji Meet Scorpio Again",
-        "content": "",
+        "content": {
+          "tree": {
+            "nodes": [
+              {
+                "id": "2e6b1299-34a4-4199-a81b-6655815b3540",
+                "position": {
+                  "x": 122.2454833984375,
+                  "y": 368.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "1 - Start ",
+                  "handles": [
+                    {
+                      "id": "3a64c2c5-8ebc-4f08-847b-b873192b7e0a",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "start"
+                }
+              },
+              {
+                "id": "0b4f721a-3bdb-4718-a023-3611fda27cdd",
+                "position": {
+                  "x": 310.04266357421875,
+                  "y": 328.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "2 - Script",
+                  "handles": [
+                    {
+                      "id": "1aaa1e2a-caee-47a1-8e93-5287c2d80b4d",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "0b57b1aa-ba0d-4495-a365-1c9677180284",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "230d3c19-d6b1-484d-90f6-57b703ed354c",
+                "position": {
+                  "x": 1326.0426635742188,
+                  "y": 316.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "7 - End ",
+                  "handles": [
+                    {
+                      "id": "f2216f8c-f8b1-4742-b79a-f845674e973d",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "2fec9d91-bccf-42c7-be53-8f42d8cf9f2c",
+                "position": {
+                  "x": 1060.0426635742188,
+                  "y": 228.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "8 - Script",
+                  "handles": [
+                    {
+                      "id": "0eefc1f8-c9bd-4c8e-a1a5-377ba5734134",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "832e1126-b7be-4b23-bfe9-151d124bc430",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "667e49a5-27e5-440a-8ffc-b25bd05ab029",
+                "position": {
+                  "x": 1060.0426635742188,
+                  "y": 416.3212047891773
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "9 - Script",
+                  "handles": [
+                    {
+                      "id": "1bbd2907-ca41-4ba2-9fce-74b856811ea2",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "faeab806-2bee-4490-8a01-cc874a91e5f5",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "d86cca86-4ee7-4655-b64e-4f2f9a1abbfc",
+                "position": {
+                  "x": 557.3145558551014,
+                  "y": 275.7761297207039
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "10 - Choice",
+                  "handles": [
+                    {
+                      "id": "0052ec98-b32f-4fd8-8ede-26bc3eb05b7a",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "8dfa3174-2dc2-4602-b8f6-cec7127c1207",
+                      "type": "source",
+                      "label": "Say nothing."
+                    },
+                    {
+                      "id": "ad5f5d38-e5d0-4845-bdf1-1499de5e881f",
+                      "type": "source",
+                      "label": "You are not alone in this (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              }
+            ],
+            "edges": [
+              {
+                "edgeId": "de189a07-7558-4ca4-8a38-e23e69c2c96b",
+                "id": "de189a07-7558-4ca4-8a38-e23e69c2c96b",
+                "key": "de189a07-7558-4ca4-8a38-e23e69c2c96b",
+                "source": "2e6b1299-34a4-4199-a81b-6655815b3540",
+                "target": "0b4f721a-3bdb-4718-a023-3611fda27cdd",
+                "sourceHandle": "3a64c2c5-8ebc-4f08-847b-b873192b7e0a",
+                "targetHandle": "1aaa1e2a-caee-47a1-8e93-5287c2d80b4d",
+                "animated": false
+              },
+              {
+                "edgeId": "e1e8515a-65ab-46f4-9281-cbaddf0b2b21",
+                "id": "e1e8515a-65ab-46f4-9281-cbaddf0b2b21",
+                "key": "e1e8515a-65ab-46f4-9281-cbaddf0b2b21",
+                "source": "2fec9d91-bccf-42c7-be53-8f42d8cf9f2c",
+                "target": "230d3c19-d6b1-484d-90f6-57b703ed354c",
+                "sourceHandle": "832e1126-b7be-4b23-bfe9-151d124bc430",
+                "targetHandle": "f2216f8c-f8b1-4742-b79a-f845674e973d",
+                "animated": false
+              },
+              {
+                "edgeId": "3a49bc6c-e8ff-4d7c-8d19-cc445bacae8e",
+                "id": "3a49bc6c-e8ff-4d7c-8d19-cc445bacae8e",
+                "key": "3a49bc6c-e8ff-4d7c-8d19-cc445bacae8e",
+                "source": "667e49a5-27e5-440a-8ffc-b25bd05ab029",
+                "target": "230d3c19-d6b1-484d-90f6-57b703ed354c",
+                "sourceHandle": "faeab806-2bee-4490-8a01-cc874a91e5f5",
+                "targetHandle": "f2216f8c-f8b1-4742-b79a-f845674e973d",
+                "animated": false
+              },
+              {
+                "edgeId": "22be3737-e8df-4157-abef-138e91d9ae5e",
+                "id": "22be3737-e8df-4157-abef-138e91d9ae5e",
+                "key": "22be3737-e8df-4157-abef-138e91d9ae5e",
+                "source": "0b4f721a-3bdb-4718-a023-3611fda27cdd",
+                "target": "d86cca86-4ee7-4655-b64e-4f2f9a1abbfc",
+                "sourceHandle": "0b57b1aa-ba0d-4495-a365-1c9677180284",
+                "targetHandle": "0052ec98-b32f-4fd8-8ede-26bc3eb05b7a",
+                "animated": false
+              },
+              {
+                "edgeId": "cdc2cdbe-6d19-4c2f-b0c3-d65d74fb3d53",
+                "id": "cdc2cdbe-6d19-4c2f-b0c3-d65d74fb3d53",
+                "key": "cdc2cdbe-6d19-4c2f-b0c3-d65d74fb3d53",
+                "source": "d86cca86-4ee7-4655-b64e-4f2f9a1abbfc",
+                "target": "667e49a5-27e5-440a-8ffc-b25bd05ab029",
+                "sourceHandle": "ad5f5d38-e5d0-4845-bdf1-1499de5e881f",
+                "targetHandle": "1bbd2907-ca41-4ba2-9fce-74b856811ea2",
+                "animated": false
+              },
+              {
+                "edgeId": "090df001-0063-4dfe-b0f3-dbd40e1bcb62",
+                "id": "090df001-0063-4dfe-b0f3-dbd40e1bcb62",
+                "key": "090df001-0063-4dfe-b0f3-dbd40e1bcb62",
+                "source": "d86cca86-4ee7-4655-b64e-4f2f9a1abbfc",
+                "target": "2fec9d91-bccf-42c7-be53-8f42d8cf9f2c",
+                "sourceHandle": "8dfa3174-2dc2-4602-b8f6-cec7127c1207",
+                "targetHandle": "0eefc1f8-c9bd-4c8e-a1a5-377ba5734134",
+                "animated": false
+              }
+            ]
+          }
+        },
         "type": "Dialogue",
         "parent": "a7d4af12-6e73-4a9b-8c24-aac0c168f02e",
         "icon": "message",
@@ -2732,11 +3609,21 @@
         "name": "02 - Kenji visits Aries.",
         "parent": "DialogueFolder",
         "children": [
-          "5f7402bd-11a7-4da4-8165-222d7f5dd4e2",
-          "4afd4241-8e2f-4d00-a002-fe89d2b0d2c2",
-          "2c7de219-2155-4b8d-8990-d971897b70be",
-          "8d06b620-2074-46fd-aaca-245e3bf7fb8e",
-          "0325ace8-c558-4289-a5fd-7e919eb1a8f1"
+          {
+            "_id": "5f7402bd-11a7-4da4-8165-222d7f5dd4e2"
+          },
+          {
+            "_id": "4afd4241-8e2f-4d00-a002-fe89d2b0d2c2"
+          },
+          {
+            "_id": "2c7de219-2155-4b8d-8990-d971897b70be"
+          },
+          {
+            "_id": "8d06b620-2074-46fd-aaca-245e3bf7fb8e"
+          },
+          {
+            "_id": "0325ace8-c558-4289-a5fd-7e919eb1a8f1"
+          }
         ],
         "type": "Folder",
         "icon": "message",
@@ -2852,11 +3739,21 @@
         "name": "03 - Kenji Look for Scorpio",
         "parent": "DialogueFolder",
         "children": [
-          "d8020ad8-3a70-49cb-b7b0-93081f1b6f47",
-          "c7cb3640-32c5-41b7-8323-74ed1c925595",
-          "db749ac9-5c53-49bb-8211-415d05d93635",
-          "7b8c58b5-bce1-4755-a025-f4af564ae02b",
-          "e9847452-916e-4389-ba38-94d543ec18ed"
+          {
+            "_id": "d8020ad8-3a70-49cb-b7b0-93081f1b6f47"
+          },
+          {
+            "_id": "c7cb3640-32c5-41b7-8323-74ed1c925595"
+          },
+          {
+            "_id": "db749ac9-5c53-49bb-8211-415d05d93635"
+          },
+          {
+            "_id": "7b8c58b5-bce1-4755-a025-f4af564ae02b"
+          },
+          {
+            "_id": "e9847452-916e-4389-ba38-94d543ec18ed"
+          }
         ],
         "type": "Folder",
         "icon": "message",
@@ -2879,7 +3776,179 @@
       },
       "doc": {
         "name": "02 - Kenji visits Aries.",
-        "content": "",
+        "content": {
+          "tree": {
+            "nodes": [
+              {
+                "id": "88884ee9-617f-4914-bb55-9c9d5ee816cb",
+                "position": {
+                  "x": 296.9188549632871,
+                  "y": 361.34982460983395
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "1 - Start ",
+                  "handles": [
+                    {
+                      "id": "023c4bf2-04eb-42cb-96a1-47362d87bb80",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "start"
+                }
+              },
+              {
+                "id": "ecfdff18-7292-4932-a89d-2f257925a48d",
+                "position": {
+                  "x": 468.3629150390625,
+                  "y": 390.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "Kenji meet Aries in the forest",
+                  "handles": [
+                    {
+                      "id": "3ff6dab7-1b76-4a9b-a555-aa426234c083",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "66604006-34bb-4caf-b1e6-d4ae301a86cb",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "f253b7d9-7a58-4e2e-a9b9-fb30c39a0d49",
+                "position": {
+                  "x": 851.8685446862258,
+                  "y": 334.0096951539786
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "3 - Choice",
+                  "handles": [
+                    {
+                      "id": "fbabaff0-146d-42c1-844b-baa6caf4b7e4",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "a0ccc421-9db0-4d48-b85e-e63edeea6955",
+                      "type": "source",
+                      "label": "Say nothing."
+                    },
+                    {
+                      "id": "9bed469e-857d-4289-aeee-9fccef87cb1f",
+                      "type": "source",
+                      "label": "Ask her to come visit you in the town. (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              },
+              {
+                "id": "5b389f39-8307-4587-a366-b7adc37b5c52",
+                "position": {
+                  "x": 1523.3613962785596,
+                  "y": 458.0167768082422
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "4 - End ",
+                  "handles": [
+                    {
+                      "id": "e14ef6ff-2214-4dae-afbb-287dda0d044a",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "6c1b2c1f-7573-4d9f-9079-a51cc7b10477",
+                "position": {
+                  "x": 1516.805456354335,
+                  "y": 289.74765208647693
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "5 - End ",
+                  "handles": [
+                    {
+                      "id": "a1c4fe71-310f-4be7-a0c1-0f512f613f20",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              }
+            ],
+            "edges": [
+              {
+                "edgeId": "70b5b8a7-97ee-4a7f-a8b9-b9e4e204d350",
+                "id": "70b5b8a7-97ee-4a7f-a8b9-b9e4e204d350",
+                "key": "70b5b8a7-97ee-4a7f-a8b9-b9e4e204d350",
+                "source": "88884ee9-617f-4914-bb55-9c9d5ee816cb",
+                "target": "ecfdff18-7292-4932-a89d-2f257925a48d",
+                "sourceHandle": "023c4bf2-04eb-42cb-96a1-47362d87bb80",
+                "targetHandle": "3ff6dab7-1b76-4a9b-a555-aa426234c083",
+                "animated": false
+              },
+              {
+                "edgeId": "a7aa8aaf-733b-43ff-b573-77eacd0f7a07",
+                "id": "a7aa8aaf-733b-43ff-b573-77eacd0f7a07",
+                "key": "a7aa8aaf-733b-43ff-b573-77eacd0f7a07",
+                "source": "f253b7d9-7a58-4e2e-a9b9-fb30c39a0d49",
+                "target": "5b389f39-8307-4587-a366-b7adc37b5c52",
+                "sourceHandle": "9bed469e-857d-4289-aeee-9fccef87cb1f",
+                "targetHandle": "e14ef6ff-2214-4dae-afbb-287dda0d044a",
+                "animated": false
+              },
+              {
+                "edgeId": "ee9a448e-770a-4d37-b947-4a6bd4d1d75a",
+                "id": "ee9a448e-770a-4d37-b947-4a6bd4d1d75a",
+                "key": "ee9a448e-770a-4d37-b947-4a6bd4d1d75a",
+                "source": "f253b7d9-7a58-4e2e-a9b9-fb30c39a0d49",
+                "target": "6c1b2c1f-7573-4d9f-9079-a51cc7b10477",
+                "sourceHandle": "a0ccc421-9db0-4d48-b85e-e63edeea6955",
+                "targetHandle": "a1c4fe71-310f-4be7-a0c1-0f512f613f20",
+                "animated": false
+              },
+              {
+                "edgeId": "d6aaac11-cdf3-47ff-9e65-2837cf41a3e2",
+                "id": "d6aaac11-cdf3-47ff-9e65-2837cf41a3e2",
+                "key": "d6aaac11-cdf3-47ff-9e65-2837cf41a3e2",
+                "source": "ecfdff18-7292-4932-a89d-2f257925a48d",
+                "target": "f253b7d9-7a58-4e2e-a9b9-fb30c39a0d49",
+                "sourceHandle": "66604006-34bb-4caf-b1e6-d4ae301a86cb",
+                "targetHandle": "fbabaff0-146d-42c1-844b-baa6caf4b7e4",
+                "animated": false
+              }
+            ]
+          }
+        },
         "type": "Dialogue",
         "parent": "b75e04cc-50d1-4054-8d2b-f97294974673",
         "icon": "message",
@@ -3349,12 +4418,24 @@
         "name": "Dialogues",
         "parent": null,
         "children": [
-          "69b2413b-75b0-4dcd-b754-e5c6cacf4179",
-          "7623e25f-b437-4ab2-92b7-92df184d46f0",
-          "6afd1dc9-aefd-44af-b5a1-887b0b5bab2d",
-          "cdf4d154-7cd5-49db-9a63-d6ad78e958fe",
-          "c3cbf89f-c76f-4a11-aebf-12e8b87f20eb",
-          "7e586ee9-3fb5-49fe-9609-70466e6341cc"
+          {
+            "_id": "69b2413b-75b0-4dcd-b754-e5c6cacf4179"
+          },
+          {
+            "_id": "7623e25f-b437-4ab2-92b7-92df184d46f0"
+          },
+          {
+            "_id": "6afd1dc9-aefd-44af-b5a1-887b0b5bab2d"
+          },
+          {
+            "_id": "cdf4d154-7cd5-49db-9a63-d6ad78e958fe"
+          },
+          {
+            "_id": "c3cbf89f-c76f-4a11-aebf-12e8b87f20eb"
+          },
+          {
+            "_id": "7e586ee9-3fb5-49fe-9609-70466e6341cc"
+          }
         ],
         "type": "Folder",
         "icon": "message",
@@ -3573,9 +4654,15 @@
         "name": "Scorpio",
         "parent": null,
         "children": [
-          "c283e3d7-8fdd-4c9d-8a23-d1afc384d93e",
-          "761e1116-0572-4c7d-b612-bc0d8f24a045",
-          "032b81c5-a35a-4906-a645-2ee1686bf73e"
+          {
+            "_id": "c283e3d7-8fdd-4c9d-8a23-d1afc384d93e"
+          },
+          {
+            "_id": "761e1116-0572-4c7d-b612-bc0d8f24a045"
+          },
+          {
+            "_id": "032b81c5-a35a-4906-a645-2ee1686bf73e"
+          }
         ],
         "type": "Folder",
         "icon": "folder",
@@ -3675,9 +4762,15 @@
         "name": "Aries",
         "parent": null,
         "children": [
-          "8134713f-037f-46ee-b374-a57188875ebb",
-          "4fc14e23-e22d-4b17-9d79-1ec48a4764dc",
-          "1e17e01a-fb19-454c-ac2f-c42d1507b301"
+          {
+            "_id": "8134713f-037f-46ee-b374-a57188875ebb"
+          },
+          {
+            "_id": "4fc14e23-e22d-4b17-9d79-1ec48a4764dc"
+          },
+          {
+            "_id": "1e17e01a-fb19-454c-ac2f-c42d1507b301"
+          }
         ],
         "type": "Folder",
         "icon": "folder",
@@ -3772,7 +4865,179 @@
       },
       "doc": {
         "name": "01 - Scorpio Encounter",
-        "content": "",
+        "content": {
+          "tree": {
+            "nodes": [
+              {
+                "id": "2f30e078-8cf3-445c-9c5a-56ccf8ea4c6e",
+                "position": {
+                  "x": 66.0406494140625,
+                  "y": 220.12952423095703
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "1 - Start ",
+                  "handles": [
+                    {
+                      "id": "dd67a093-ec41-4a98-80b1-96ab53036554",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "start"
+                }
+              },
+              {
+                "id": "353ec821-70d0-44cd-a64f-618a27e10a43",
+                "position": {
+                  "x": 265.4725807708845,
+                  "y": 177.6867537752367
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "Scorpio Talk",
+                  "handles": [
+                    {
+                      "id": "914418b1-878e-4470-8d80-ff2a0acb4865",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "73a367c5-fbc9-4717-b551-bf1bfed721f3",
+                      "type": "source",
+                      "label": "Out"
+                    }
+                  ],
+                  "nodeType": "script"
+                }
+              },
+              {
+                "id": "ad1e452b-a5a5-4472-9ba4-6c6d3ad6f3e1",
+                "position": {
+                  "x": 527.060147426877,
+                  "y": 127.06687513722821
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "3 - Choice",
+                  "handles": [
+                    {
+                      "id": "61e94fbd-7f51-432d-a51a-5d988d5cf15b",
+                      "type": "target",
+                      "label": "In"
+                    },
+                    {
+                      "id": "77a13e1b-4a0b-4983-8cf3-ba3d4b88fd77",
+                      "type": "source",
+                      "label": "Say Nothing."
+                    },
+                    {
+                      "id": "28de7ac2-34f5-486b-93c9-ee879a30afae",
+                      "type": "source",
+                      "label": "Say you will be delighted to meet again. (+1)"
+                    }
+                  ],
+                  "nodeType": "choice"
+                }
+              },
+              {
+                "id": "73fd313d-d493-4a92-b76e-04a6b9c793cf",
+                "position": {
+                  "x": 1191.5200486786316,
+                  "y": 75.7635475750997
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "5 - End ",
+                  "handles": [
+                    {
+                      "id": "b09a399d-4f7d-4cef-b7ce-da886cefb5ff",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              },
+              {
+                "id": "20dee6b6-05c7-460c-9b25-55898ff02c9a",
+                "position": {
+                  "x": 1191.5200486786314,
+                  "y": 216.1301863329095
+                },
+                "sourcePosition": "left",
+                "targetPosition": "right",
+                "type": "base",
+                "dragHandle": ".drag-handle__header",
+                "data": {
+                  "label": "6 - End ",
+                  "handles": [
+                    {
+                      "id": "f4152daa-48de-418a-ad70-9fee0cd1e2da",
+                      "type": "target",
+                      "label": "In"
+                    }
+                  ],
+                  "nodeType": "end"
+                }
+              }
+            ],
+            "edges": [
+              {
+                "edgeId": "a0b0205c-e055-4e8a-90df-0b4f79f723db",
+                "id": "a0b0205c-e055-4e8a-90df-0b4f79f723db",
+                "key": "a0b0205c-e055-4e8a-90df-0b4f79f723db",
+                "source": "2f30e078-8cf3-445c-9c5a-56ccf8ea4c6e",
+                "target": "353ec821-70d0-44cd-a64f-618a27e10a43",
+                "sourceHandle": "dd67a093-ec41-4a98-80b1-96ab53036554",
+                "targetHandle": "914418b1-878e-4470-8d80-ff2a0acb4865",
+                "animated": false
+              },
+              {
+                "edgeId": "ded14797-2c4d-4d4c-9b08-9968b7ea3e08",
+                "id": "ded14797-2c4d-4d4c-9b08-9968b7ea3e08",
+                "key": "ded14797-2c4d-4d4c-9b08-9968b7ea3e08",
+                "source": "353ec821-70d0-44cd-a64f-618a27e10a43",
+                "target": "ad1e452b-a5a5-4472-9ba4-6c6d3ad6f3e1",
+                "sourceHandle": "73a367c5-fbc9-4717-b551-bf1bfed721f3",
+                "targetHandle": "61e94fbd-7f51-432d-a51a-5d988d5cf15b",
+                "animated": false
+              },
+              {
+                "edgeId": "9b7b7f82-0fbe-45ff-88de-72a30534aa56",
+                "id": "9b7b7f82-0fbe-45ff-88de-72a30534aa56",
+                "key": "9b7b7f82-0fbe-45ff-88de-72a30534aa56",
+                "source": "ad1e452b-a5a5-4472-9ba4-6c6d3ad6f3e1",
+                "target": "73fd313d-d493-4a92-b76e-04a6b9c793cf",
+                "sourceHandle": "77a13e1b-4a0b-4983-8cf3-ba3d4b88fd77",
+                "targetHandle": "b09a399d-4f7d-4cef-b7ce-da886cefb5ff",
+                "animated": false
+              },
+              {
+                "edgeId": "37dcb00c-9812-4768-9d82-7e7d8efe4d5b",
+                "id": "37dcb00c-9812-4768-9d82-7e7d8efe4d5b",
+                "key": "37dcb00c-9812-4768-9d82-7e7d8efe4d5b",
+                "source": "ad1e452b-a5a5-4472-9ba4-6c6d3ad6f3e1",
+                "target": "20dee6b6-05c7-460c-9b25-55898ff02c9a",
+                "sourceHandle": "28de7ac2-34f5-486b-93c9-ee879a30afae",
+                "targetHandle": "f4152daa-48de-418a-ad70-9fee0cd1e2da",
+                "animated": false
+              }
+            ]
+          }
+        },
         "type": "Dialogue",
         "parent": "a7d4af12-6e73-4a9b-8c24-aac0c168f02e",
         "icon": "message",
@@ -4114,12 +5379,24 @@
         "name": "02 - Kenji Meet Scorpio Again",
         "parent": "DialogueFolder",
         "children": [
-          "15d1e1da-5ea7-499b-a495-5a5be2a8ecdf",
-          "0ec1cbe0-c626-4629-9e8f-28e0870d2078",
-          "dbb083fe-ac10-4d73-b179-d6cf79f07c88",
-          "59cfacff-f232-4137-ac8b-c31d4b6b438f",
-          "534cef15-4df5-4028-ad80-1331acd86665",
-          "c5907dba-f8fa-446c-ac59-fed0093da992"
+          {
+            "_id": "15d1e1da-5ea7-499b-a495-5a5be2a8ecdf"
+          },
+          {
+            "_id": "0ec1cbe0-c626-4629-9e8f-28e0870d2078"
+          },
+          {
+            "_id": "dbb083fe-ac10-4d73-b179-d6cf79f07c88"
+          },
+          {
+            "_id": "59cfacff-f232-4137-ac8b-c31d4b6b438f"
+          },
+          {
+            "_id": "534cef15-4df5-4028-ad80-1331acd86665"
+          },
+          {
+            "_id": "c5907dba-f8fa-446c-ac59-fed0093da992"
+          }
         ],
         "type": "Folder",
         "icon": "message",
@@ -4242,11 +5519,21 @@
         "name": "01 - Scorpio Encounter",
         "parent": "DialogueFolder",
         "children": [
-          "4e3e9b9b-a950-45fe-9ece-7010a7f992b9",
-          "07555f13-af56-4ebe-9201-0c5a437fca6f",
-          "6a1e9885-b690-4d07-81b8-3affdbf044f6",
-          "b4638bf7-e748-4706-95d5-ccf1e728c904",
-          "fffa73df-258b-4934-9b9b-383d99d4f6de"
+          {
+            "_id": "4e3e9b9b-a950-45fe-9ece-7010a7f992b9"
+          },
+          {
+            "_id": "07555f13-af56-4ebe-9201-0c5a437fca6f"
+          },
+          {
+            "_id": "6a1e9885-b690-4d07-81b8-3affdbf044f6"
+          },
+          {
+            "_id": "b4638bf7-e748-4706-95d5-ccf1e728c904"
+          },
+          {
+            "_id": "fffa73df-258b-4934-9b9b-383d99d4f6de"
+          }
         ],
         "type": "Folder",
         "icon": "message",

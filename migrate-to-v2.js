@@ -85,6 +85,63 @@ function applyMigrations(data) {
     }
   }
 
+  /* Dialogue folder was previously created with only child ids, now we are using objects as subfolders 
+  This will probably have other implications for missing fields. TODO: check if we need to add more fields */
+
+  const folders = data.rows.filter((row) => row.doc?.type === "Folder");
+
+  for (const folder of folders) {
+    const { doc } = folder;
+    console.log(doc);
+    if (doc.children?.length > 0) {
+      const newChildren = [];
+      for (const child of doc.children) {
+        newChildren.push({ _id: child });
+      }
+      doc.children = newChildren;
+    }
+  }
+
+  /* Dialog schema has changed as well to adapt to the new content: strategy and also reactflow */
+  const dialogues = data.rows.filter((row) => row.doc?.type === "Dialogue");
+  for (const dialogue of dialogues) {
+    const { doc } = dialogue;
+    const g = doc.graph;
+    doc.content = {
+      tree: {
+        nodes: g.nodes.map((node) => ({
+          id: node.id,
+          position: { x: node.x * 2, y: node.y * 2 },
+          sourcePosition: "left",
+          targetPosition: "right",
+          type: "base",
+          dragHandle: ".drag-handle__header",
+          // type: node.extras.type.toLowerCase(),
+          data: {
+            label: node.name,
+            handles: node.ports.map((port) => ({
+              id: port.id,
+              type: port.in ? "target" : "source",
+              label: port.label,
+            })),
+            nodeType: node.extras.type.toLowerCase(),
+            scriptId: node.extras.scriptId,
+          },
+        })),
+        edges: g.links.map((link) => ({
+          edgeId: link.id,
+          id: link.id,
+          key: link.id,
+          source: link.source,
+          target: link.target,
+          sourceHandle: link.sourcePort,
+          targetHandle: link.targetPort,
+          animated: false,
+        })),
+      },
+    };
+  }
+
   /* We no longer have the hotkeys collection */
   data.rows = data.rows.filter((x) => x.doc.collection !== "Hotkeys");
   return data;

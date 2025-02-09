@@ -125,7 +125,7 @@ function applyMigrations(data) {
               label: port.label,
             })),
             nodeType: node.extras.type.toLowerCase(),
-            scriptId: node.extras.scriptId,
+            scriptId: node.extras.scriptID,
           },
         })),
         edges: g.links.map((link) => ({

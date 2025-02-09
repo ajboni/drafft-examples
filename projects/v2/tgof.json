@@ -65,7 +65,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "start"
+                  "nodeType": "start",
+                  "scriptId": "d8020ad8-3a70-49cb-b7b0-93081f1b6f47"
                 }
               },
               {
@@ -92,7 +93,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "c7cb3640-32c5-41b7-8323-74ed1c925595"
                 }
               },
               {
@@ -124,7 +126,8 @@
                       "label": "Touch her hand (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "db749ac9-5c53-49bb-8211-415d05d93635"
                 }
               },
               {
@@ -146,7 +149,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "7b8c58b5-bce1-4755-a025-f4af564ae02b"
                 }
               },
               {
@@ -168,7 +172,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "e9847452-916e-4389-ba38-94d543ec18ed"
                 }
               }
             ],
@@ -804,7 +809,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "start"
+                  "nodeType": "start",
+                  "scriptId": "7abb73ee-3bb9-4237-82a3-872e0c41a97d"
                 }
               },
               {
@@ -831,7 +837,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "33294ba4-02f8-4551-805e-3d19ea33e21f"
                 }
               },
               {
@@ -863,7 +870,8 @@
                       "label": "Stop her to say that you love her. (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "9aef65fc-8644-450b-acb8-506a6c6950d2"
                 }
               },
               {
@@ -885,7 +893,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "ff37e8b5-de72-4bda-a4ba-c037747da7e4"
                 }
               },
               {
@@ -907,7 +916,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "3125480e-9650-4c7c-83cc-0858a67b9d4c"
                 }
               }
             ],
@@ -1775,7 +1785,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "e65dd7f1-39b6-4c45-b480-39cfbd3aa926"
                 }
               },
               {
@@ -1807,7 +1818,8 @@
                       "label": "I think so too. (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "0fae3b33-5181-49d3-ad84-ea2d6e5eedc8"
                 }
               },
               {
@@ -1834,7 +1846,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "4c2f82c1-7afb-436a-b274-fac9fe4765cc"
                 }
               },
               {
@@ -1856,7 +1869,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "start"
+                  "nodeType": "start",
+                  "scriptId": "adbea972-7ac4-4bac-9905-5e10e23245f9"
                 }
               },
               {
@@ -1888,7 +1902,8 @@
                       "label": "Ask her if you can visit her again in the forest. (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "2cbbf2ad-a1bc-476c-82b0-05aec9d701fa"
                 }
               },
               {
@@ -1910,7 +1925,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "bd507be2-1aa3-4660-824c-bc112e963764"
                 }
               },
               {
@@ -1932,7 +1948,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "359c88a3-9c90-4429-a121-b85283297c75"
                 }
               },
               {
@@ -1954,7 +1971,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "17cee952-ba46-495f-b842-62f9f26f0524"
                 }
               }
             ],
@@ -2954,7 +2972,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "start"
+                  "nodeType": "start",
+                  "scriptId": "15d1e1da-5ea7-499b-a495-5a5be2a8ecdf"
                 }
               },
               {
@@ -2981,7 +3000,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "0ec1cbe0-c626-4629-9e8f-28e0870d2078"
                 }
               },
               {
@@ -3003,7 +3023,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "dbb083fe-ac10-4d73-b179-d6cf79f07c88"
                 }
               },
               {
@@ -3030,7 +3051,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "59cfacff-f232-4137-ac8b-c31d4b6b438f"
                 }
               },
               {
@@ -3057,7 +3079,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "534cef15-4df5-4028-ad80-1331acd86665"
                 }
               },
               {
@@ -3089,7 +3112,8 @@
                       "label": "You are not alone in this (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "c5907dba-f8fa-446c-ac59-fed0093da992"
                 }
               }
             ],
@@ -3798,7 +3822,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "start"
+                  "nodeType": "start",
+                  "scriptId": "5f7402bd-11a7-4da4-8165-222d7f5dd4e2"
                 }
               },
               {
@@ -3825,7 +3850,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "4afd4241-8e2f-4d00-a002-fe89d2b0d2c2"
                 }
               },
               {
@@ -3857,7 +3883,8 @@
                       "label": "Ask her to come visit you in the town. (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "2c7de219-2155-4b8d-8990-d971897b70be"
                 }
               },
               {
@@ -3879,7 +3906,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "8d06b620-2074-46fd-aaca-245e3bf7fb8e"
                 }
               },
               {
@@ -3901,7 +3929,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "0325ace8-c558-4289-a5fd-7e919eb1a8f1"
                 }
               }
             ],
@@ -4887,7 +4916,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "start"
+                  "nodeType": "start",
+                  "scriptId": "4e3e9b9b-a950-45fe-9ece-7010a7f992b9"
                 }
               },
               {
@@ -4914,7 +4944,8 @@
                       "label": "Out"
                     }
                   ],
-                  "nodeType": "script"
+                  "nodeType": "script",
+                  "scriptId": "07555f13-af56-4ebe-9201-0c5a437fca6f"
                 }
               },
               {
@@ -4946,7 +4977,8 @@
                       "label": "Say you will be delighted to meet again. (+1)"
                     }
                   ],
-                  "nodeType": "choice"
+                  "nodeType": "choice",
+                  "scriptId": "6a1e9885-b690-4d07-81b8-3affdbf044f6"
                 }
               },
               {
@@ -4968,7 +5000,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "b4638bf7-e748-4706-95d5-ccf1e728c904"
                 }
               },
               {
@@ -4990,7 +5023,8 @@
                       "label": "In"
                     }
                   ],
-                  "nodeType": "end"
+                  "nodeType": "end",
+                  "scriptId": "fffa73df-258b-4934-9b9b-383d99d4f6de"
                 }
               }
             ],

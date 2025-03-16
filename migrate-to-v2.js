@@ -142,6 +142,16 @@ function applyMigrations(data) {
     };
   }
 
+  /* Grid items also use content to align with the new tab strategy */
+  const grids = data.rows.filter((row) => row.doc?.type === "Grid");
+  for (const grid of grids) {
+    const { doc } = grid;
+    doc.content = {
+      columns: doc.columns,
+      data: doc.data,
+    };
+  }
+
   /* We no longer have the hotkeys collection */
   data.rows = data.rows.filter((x) => x.doc.collection !== "Hotkeys");
   return data;

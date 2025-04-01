@@ -147,7 +147,7 @@ function applyMigrations(data) {
   for (const item of items) {
     const { doc } = item;
     doc.content = {
-      item: doc.content,
+      item: doc.properties,
     };
   }
 

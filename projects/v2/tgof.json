@@ -2895,7 +2895,9 @@
       },
       "doc": {
         "name": "Town",
-        "content": "<p>Created on : Sun Mar 28 2021 22:08:22 GMT+0300 (Eastern European Summer Time)</p>",
+        "content": {
+          "item": "It contains a market, palace, temple and the house of the protagonist.\nAppears more in the final quest of Aries and in Scorpio's route."
+        },
         "type": "Item",
         "parent": null,
         "icon": "file",
@@ -4383,7 +4385,9 @@
       },
       "doc": {
         "name": "Library",
-        "content": "<p>Created on : Sun Mar 28 2021 22:07:40 GMT+0300 (Eastern European Summer Time)</p>",
+        "content": {
+          "item": "A place to study.\nAppears in Scorpio's route. Kenji finds her there."
+        },
         "type": "Item",
         "parent": null,
         "icon": "file",
@@ -4486,7 +4490,10 @@
       },
       "doc": {
         "name": "Game",
-        "content": "<p>Created on : Sun Mar 28 2021 20:42:10 GMT-0300 (Argentina Standard Time)</p>",
+        "content": {
+          "conditions": "// Define what conditions (properties: value) should be met for the quest to be considered completed.\nWin: true\n",
+          "properties": "// Define the quest properties that may or may not change during the game.\nTitle: Win the game\nDescription: Global Game Variables\nState: Hidden\nWin: false\nSampleGlobalVar1: 1\nSampleGlobalVar2: Some Text\nSampleGlobalVar3: false\n"
+        },
         "type": "Quest",
         "parent": null,
         "icon": "file",
@@ -4831,7 +4838,9 @@
       },
       "doc": {
         "name": "Sword",
-        "content": "<p>Created on : Sun Mar 28 2021 20:46:00 GMT+0300 (Eastern European Summer Time)</p>",
+        "content": {
+          "item": "The most powerful sword in the world.\nIt is not driven by any stone, but by feelings.\nIt is activated in the end by love."
+        },
         "type": "Item",
         "parent": null,
         "icon": "file",
@@ -5689,7 +5698,9 @@
       },
       "doc": {
         "name": "Forest",
-        "content": "<p>Created on : Sun Mar 28 2021 22:10:35 GMT+0300 (Eastern European Summer Time)</p>",
+        "content": {
+          "item": "A place full of animals and magic.\nThe place where Aries lives and where the protagonist will meet her."
+        },
         "type": "Item",
         "parent": null,
         "icon": "file",
@@ -5785,7 +5796,9 @@
       },
       "doc": {
         "name": "Half dog, half rabbit",
-        "content": "<p>Created on : Sun Mar 28 2021 20:59:48 GMT+0300 (Eastern European Summer Time)</p>",
+        "content": {
+          "item": "An animal that gets lost.\nReally cute and adorable.\nBrings Aries and Kenji closer."
+        },
         "type": "Item",
         "parent": null,
         "icon": "file",

@@ -142,6 +142,15 @@ function applyMigrations(data) {
     };
   }
 
+  /* Items are now stored under content.item */
+  const items = data.rows.filter((row) => row.doc?.type === "Item");
+  for (const item of items) {
+    const { doc } = item;
+    doc.content = {
+      item: doc.content,
+    };
+  }
+
   /* Grid items also use content to align with the new tab strategy */
   const grids = data.rows.filter((row) => row.doc?.type === "Grid");
   for (const grid of grids) {
@@ -149,6 +158,16 @@ function applyMigrations(data) {
     doc.content = {
       columns: doc.columns,
       data: doc.data,
+    };
+  }
+
+  /* Quests conditions and properties are now stored under content */
+  const quests = data.rows.filter((row) => row.doc?.type === "Quest");
+  for (const quest of quests) {
+    const { doc } = quest;
+    doc.content = {
+      conditions: doc.conditions,
+      properties: doc.properties,
     };
   }
 

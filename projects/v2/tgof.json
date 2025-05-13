@@ -26,7 +26,7 @@
         "comments": "",
         "collection": "Script",
         "locked": true,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "mind",
         "scriptEditorMode": "text",
         "isDialogueScript": true,
@@ -234,7 +234,7 @@
         "comments": "",
         "collection": "Dialogue",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "area",
         "graph": {
           "id": "76fdac33-2f0a-41ec-b636-8b3005d68aba",
@@ -576,7 +576,7 @@
         "comments": "",
         "collection": "Script",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "hardhat",
         "scriptEditorMode": "text",
         "isDialogueScript": true,
@@ -811,7 +811,7 @@
         "comments": "",
         "collection": "Script",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "pantyhose",
         "scriptEditorMode": "text",
         "isDialogueScript": true,
@@ -937,7 +937,7 @@
           }
         },
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "modified": "Sat Feb 01 2025 15:15:03 GMT-0300 (Argentina Standard Time)",
         "content": {
           "bio": "Kenji is a 20 year old guy that lives in a world full of fantasy. He is tall (1.90 meters), has brown hair and hazel eyes.\n\nHe loves helping others even though sometimes it will be for his best interest to not do it. Very curious, stupid at times, but always finds a way to solve any problem.",
@@ -1180,7 +1180,7 @@
         "comments": "",
         "collection": "Dialogue",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "century",
         "graph": {
           "id": "cccc11be-e8b5-4990-b18a-2fff93f6f844",
@@ -1621,7 +1621,7 @@
         "comments": "",
         "collection": "Gdd",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "parrot",
         "editor": "markdown",
         "_id": "31b4a172-bd88-4313-98c8-f45fb0f46bb4",
@@ -1718,7 +1718,7 @@
         "comments": "",
         "collection": "Gdd",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "roast",
         "_id": "4a221ba5-128d-49f2-a08c-2d3c22da1dc2",
         "_rev": "1-5fc903e43d18941213901e57ffc00d5b"
@@ -1866,7 +1866,7 @@
           }
         },
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "modified": "Sat Feb 01 2025 15:15:06 GMT-0300 (Argentina Standard Time)",
         "content": {
           "bio": "Scorpio is a goddess that lived for an eternity but looks around 30 years old. She is a general and needs to always be involved in war, despite the fact that she started to hate it.\n\nShe has red hair, blue eyes and a well build body. She usually wears pants and a shirt or whatever is more comfortable for her, not caring about how she looks.\n\nDespite her looking strong, she has a good heart and gets to experience love thanks to Kenji,",
@@ -1941,7 +1941,7 @@
           }
         },
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "modified": "Thu Apr 08 2021 00:41:58 GMT-0300 (Argentina Standard Time)",
         "content": {
           "bio": "Just Aries, before Kenji meet her.",
@@ -2265,7 +2265,7 @@
         "comments": "",
         "collection": "Dialogue",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "flame",
         "graph": {
           "id": "9577be59-6d3d-4127-a698-366bf70b53eb",
@@ -3078,7 +3078,7 @@
           }
         },
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "modified": "Sat Feb 01 2025 15:15:02 GMT-0300 (Argentina Standard Time)",
         "content": {
           "bio": "Aries is a goddess that lived for an eternity but doesn't look older than 25. She has green hair, green eyes and wears a dress that symbolizes purity,.\n\nBesides talking with the animals, she loves singing and since she stayed away from humanity for a long time, she is very curious.\n\nWhile being full of wisdom, she comes off really childish a lot of times, but that only adds to her beauty.",
@@ -3228,7 +3228,7 @@
         "comments": "",
         "collection": "Kanban",
         "locked": true,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "dentist",
         "_id": "73b726ad-c51b-4fb3-bbec-02c703827ffd",
         "_rev": "10-3ab12ab969b9c642f3761f3b544ecece"
@@ -3511,7 +3511,7 @@
         "comments": "",
         "collection": "Dialogue",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "ticket",
         "graph": {
           "id": "21b3d362-acbc-4fc4-9cad-8d5d1284709f",
@@ -4308,7 +4308,7 @@
         "comments": "",
         "collection": "Dialogue",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "eight",
         "graph": {
           "id": "3d8e45ae-da72-499c-b196-8cd92d2cd005",
@@ -4828,7 +4828,7 @@
           }
         },
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "modified": "Wed Jan 29 2025 12:55:33 GMT-0300 (Argentina Standard Time)",
         "content": {
           "bio": "This is essentially Kenji doing a off-stage voice.",
@@ -5773,7 +5773,7 @@
         "comments": "",
         "collection": "Dialogue",
         "locked": false,
-        "lockedBy": "baj",
+        "lockedBy": "nobody",
         "alias": "board",
         "graph": {
           "id": "be1ffa25-061d-4dd2-bc29-73d6316a50a1",

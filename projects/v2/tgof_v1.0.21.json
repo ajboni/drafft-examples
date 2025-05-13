@@ -1,5 +1,5 @@
 {
-  "total_rows": 64,
+  "total_rows": 71,
   "offset": 0,
   "rows": [
     {
@@ -589,7 +589,7 @@
       "id": "0c7555e3-6397-416a-8726-aa67f5fa6979",
       "key": "0c7555e3-6397-416a-8726-aa67f5fa6979",
       "value": {
-        "rev": "1-712c7364bc9cbc34bf99d00342a26024"
+        "rev": "7-2b3143277eca6aab2e92efaf5f904928"
       },
       "doc": {
         "name": "Spanish",
@@ -784,7 +784,7 @@
         "lockedBy": "bajs",
         "alias": "insurance",
         "_id": "0c7555e3-6397-416a-8726-aa67f5fa6979",
-        "_rev": "1-712c7364bc9cbc34bf99d00342a26024"
+        "_rev": "7-2b3143277eca6aab2e92efaf5f904928"
       }
     },
     {
@@ -3093,7 +3093,7 @@
       "id": "7300fcb3-8a33-49ba-8c09-ad1558672995",
       "key": "7300fcb3-8a33-49ba-8c09-ad1558672995",
       "value": {
-        "rev": "1-013b115279a39f2e26c240189c23f204"
+        "rev": "5-1ed3fd5d3a9cc735f9fb6580698987e9"
       },
       "doc": {
         "name": "Town",
@@ -3118,120 +3118,7 @@
         "properties": "It contains a market, palace, temple and the house of the protagonist.\nAppears more in the final quest of Aries and in Scorpio's route.",
         "editorLanguage": "yaml",
         "_id": "7300fcb3-8a33-49ba-8c09-ad1558672995",
-        "_rev": "1-013b115279a39f2e26c240189c23f204"
-      }
-    },
-    {
-      "id": "73b726ad-c51b-4fb3-bbec-02c703827ffd",
-      "key": "73b726ad-c51b-4fb3-bbec-02c703827ffd",
-      "value": {
-        "rev": "10-3ab12ab969b9c642f3761f3b544ecece"
-      },
-      "doc": {
-        "name": "Basic Todo",
-        "content": {
-          "columns": [
-            {
-              "id": "to-do",
-              "title": "To Do",
-              "type": "column",
-              "cards": [
-                {
-                  "id": "83b9c217-5991-45f2-b08d-4ecb6166aa4e",
-                  "type": "card",
-                  "title": " Add a GDD section outlining the gameplay loop.",
-                  "description": "Describe the core gameplay loop—what the player does repeatedly throughout the game.\nInclude a simple breakdown (e.g., Explore → Collect → Upgrade → Repeat) and note how it drives player progression. ",
-                  "tags": [],
-                  "related": [],
-                  "completed": false,
-                  "dueDate": "",
-                  "assigned": ""
-                },
-                {
-                  "id": "3501fc56-7ab4-4f15-842f-e7f891ac745a",
-                  "type": "card",
-                  "title": "Health Potion",
-                  "description": "Add a basic item: \"Health Potion\" \nBrainstorm style ideas.  \nCould be found in the Forest\n  ",
-                  "tags": [
-                    "Idea",
-                    "Optional"
-                  ],
-                  "related": [
-                    "def85e10-54b4-4f4e-9311-5c53699446c0"
-                  ],
-                  "completed": false,
-                  "dueDate": "2026-06-23",
-                  "assigned": "Alex"
-                }
-              ]
-            },
-            {
-              "id": "doing",
-              "title": "Doing",
-              "type": "column",
-              "cards": [
-                {
-                  "id": "53178b1a-bde9-473b-88ad-aa6f6303d29a",
-                  "type": "card",
-                  "title": "Fix the pipeline importer",
-                  "description": "It's broken in latest build.  \n![](https://picsum.photos/id/5/200)\n",
-                  "tags": [
-                    "Urgent"
-                  ],
-                  "related": [],
-                  "completed": false,
-                  "dueDate": "2025-05-12",
-                  "assigned": "Alex"
-                }
-              ]
-            },
-            {
-              "id": "done",
-              "title": "Done",
-              "type": "column",
-              "cards": [
-                {
-                  "id": "123ef102-be34-47a2-a843-65157d582c33",
-                  "type": "card",
-                  "title": "Set up basic todo document",
-                  "description": "This doc.",
-                  "tags": [],
-                  "related": [],
-                  "completed": false,
-                  "dueDate": "",
-                  "assigned": ""
-                }
-              ]
-            }
-          ],
-          "template": "simple-todo",
-          "settings": {
-            "showDescription": true,
-            "showTags": true,
-            "showRelated": true,
-            "showAssigned": true,
-            "showDueDate": true,
-            "showIcons": true,
-            "showCheckbox": true
-          }
-        },
-        "type": "Kanban",
-        "parent": null,
-        "icon": "file",
-        "color": "#cec4d1",
-        "path": "Basic Todo",
-        "isClonable": true,
-        "isRemovable": true,
-        "isReadOnly": false,
-        "created": "2025-05-13T00:27:56.469Z",
-        "modified": "2025-05-13T00:41:44.148Z",
-        "comments": "",
-        "collection": "Kanban",
-        "locked": true,
-        "lockedBy": "baj",
-        "alias": "dentist",
-        "_id": "73b726ad-c51b-4fb3-bbec-02c703827ffd",
-        "_rev": "10-3ab12ab969b9c642f3761f3b544ecece"
+        "_rev": "5-1ed3fd5d3a9cc735f9fb6580698987e9"
       }
     },
     {
@@ -4696,7 +4583,7 @@
       "id": "9b4590ab-3684-4cde-ad89-5042a1dac480",
       "key": "9b4590ab-3684-4cde-ad89-5042a1dac480",
       "value": {
-        "rev": "1-821283d840ec533d043d6df065a3ea91"
+        "rev": "5-d15f71c404695ceed27ee9927d02ef85"
       },
       "doc": {
         "name": "Library",
@@ -4721,7 +4608,7 @@
         "properties": "A place to study.\nAppears in Scorpio's route. Kenji finds her there.",
         "editorLanguage": "json",
         "_id": "9b4590ab-3684-4cde-ad89-5042a1dac480",
-        "_rev": "1-821283d840ec533d043d6df065a3ea91"
+        "_rev": "5-d15f71c404695ceed27ee9927d02ef85"
       }
     },
     {
@@ -4843,10 +4730,10 @@
       "id": "ProjectSettings",
       "key": "ProjectSettings",
       "value": {
-        "rev": "2-30f7c16146c26c2a2af1fb12a6107f23"
+        "rev": "3-b9d0e737923606096d6f174d1c5bd9c0"
       },
       "doc": {
-        "projectName": "The Goddess of Fate 738",
+        "projectName": "tgof",
         "projectDescription": "The story revolves around **Kenji**, a protagonist who finds himself entangled in the lives of two powerful goddesses, **Scorpio** and **Aries**. \nScorpio, the goddess of war, seeks to unlock the power of a mystical sword that feeds on emotions, particularly love. Aries, the goddess of animals, is a gentle soul who protects the forest and its creatures. As Kenji interacts with both goddesses, he navigates themes of love, purpose, and self-discovery, while uncovering the secrets of the mystical world around him.",
         "projectVersion": "2.1",
         "defaultEditorLanguage": "hjson",
@@ -4881,389 +4768,8 @@
           "fadeOutCommand": "FadeOut"
         },
         "createdAt": "2025-04-01T03:40:09.615Z",
-        "kanban": {
-          "boards": [
-            {
-              "id": "bug-tracker",
-              "name": "Bug Tracker",
-              "description": "Track bugs and issues through triage, resolution, and completion.",
-              "columns": [
-                {
-                  "id": "triage",
-                  "title": "Triage",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "in-progress",
-                  "title": "In Progress",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "review",
-                  "title": "Review",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "done",
-                  "title": "Done",
-                  "type": "column",
-                  "cards": []
-                }
-              ],
-              "defaultCardTemplateId": "bug-card",
-              "recommendedTags": [
-                {
-                  "label": "UI",
-                  "color": "#FFD700",
-                  "icon": "🖼️"
-                },
-                {
-                  "label": "Crash",
-                  "color": "#FF6347",
-                  "icon": "💥"
-                },
-                {
-                  "label": "Critical",
-                  "color": "#DC143C",
-                  "icon": "🚨"
-                },
-                {
-                  "label": "Network",
-                  "color": "#1E90FF",
-                  "icon": "🌐"
-                },
-                {
-                  "label": "Regression",
-                  "color": "#8B0000",
-                  "icon": "↩️"
-                }
-              ]
-            },
-            {
-              "id": "art-pipeline",
-              "name": "Art Pipeline",
-              "description": "Organize visual asset development from concept to approval.",
-              "columns": [
-                {
-                  "id": "concept",
-                  "title": "Concept",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "sketch",
-                  "title": "Sketch",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "final",
-                  "title": "Final",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "approved",
-                  "title": "Approved",
-                  "type": "column",
-                  "cards": []
-                }
-              ],
-              "defaultCardTemplateId": "art-card",
-              "recommendedTags": [
-                {
-                  "label": "Animation",
-                  "color": "#9370DB",
-                  "icon": "🎞️"
-                },
-                {
-                  "label": "Concept",
-                  "color": "#87CEEB",
-                  "icon": "💡"
-                },
-                {
-                  "label": "Needs Review",
-                  "color": "#FFA500",
-                  "icon": "🧐"
-                },
-                {
-                  "label": "Approved",
-                  "color": "#32CD32",
-                  "icon": "✅"
-                }
-              ]
-            },
-            {
-              "id": "sprint-board",
-              "name": "Sprint Board",
-              "description": "Track user stories and tasks through a sprint cycle.",
-              "columns": [
-                {
-                  "id": "backlog",
-                  "title": "Backlog",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "selected-for-sprint",
-                  "title": "Selected for Sprint",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "in-progress",
-                  "title": "In Progress",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "review",
-                  "title": "Review",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "done",
-                  "title": "Done",
-                  "type": "column",
-                  "cards": []
-                }
-              ],
-              "defaultCardTemplateId": "task-card",
-              "recommendedTags": [
-                {
-                  "label": "Story",
-                  "color": "#1E90FF",
-                  "icon": "📘"
-                },
-                {
-                  "label": "Task",
-                  "color": "#4682B4",
-                  "icon": "📝"
-                },
-                {
-                  "label": "Blocked",
-                  "color": "#FF4500",
-                  "icon": "⛔"
-                },
-                {
-                  "label": "Bug",
-                  "color": "#B22222",
-                  "icon": "🐛"
-                },
-                {
-                  "label": "Enhancement",
-                  "color": "#32CD32",
-                  "icon": "✨"
-                }
-              ]
-            },
-            {
-              "id": "simple-todo",
-              "name": "Simple Todo",
-              "description": "A basic task board with minimal workflow steps.",
-              "columns": [
-                {
-                  "id": "to-do",
-                  "title": "To Do",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "doing",
-                  "title": "Doing",
-                  "type": "column",
-                  "cards": []
-                },
-                {
-                  "id": "done",
-                  "title": "Done",
-                  "type": "column",
-                  "cards": []
-                }
-              ],
-              "defaultCardTemplateId": "simple-card",
-              "recommendedTags": [
-                {
-                  "label": "Urgent",
-                  "color": "#FF0000",
-                  "icon": "🔥"
-                },
-                {
-                  "label": "Optional",
-                  "color": "#A9A9A9",
-                  "icon": "🧊"
-                },
-                {
-                  "label": "Idea",
-                  "color": "#20B2AA",
-                  "icon": "💭"
-                }
-              ]
-            }
-          ],
-          "cards": [
-            {
-              "id": "bug-card",
-              "name": "Bug Report",
-              "fields": [
-                {
-                  "key": "title",
-                  "label": "Title",
-                  "type": "text",
-                  "required": true
-                },
-                {
-                  "key": "description",
-                  "label": "Description",
-                  "type": "textarea"
-                },
-                {
-                  "key": "severity",
-                  "label": "Severity",
-                  "type": "dropdown",
-                  "options": [
-                    "Low",
-                    "Medium",
-                    "High"
-                  ]
-                },
-                {
-                  "key": "reproducible",
-                  "label": "Reproducible",
-                  "type": "checkbox"
-                },
-                {
-                  "key": "tags",
-                  "label": "Tags",
-                  "type": "tag-list"
-                }
-              ]
-            },
-            {
-              "id": "art-card",
-              "name": "Art Asset",
-              "fields": [
-                {
-                  "key": "title",
-                  "label": "Asset Name",
-                  "type": "text",
-                  "required": true
-                },
-                {
-                  "key": "description",
-                  "label": "Notes",
-                  "type": "textarea"
-                },
-                {
-                  "key": "type",
-                  "label": "Asset Type",
-                  "type": "dropdown",
-                  "options": [
-                    "Character",
-                    "Environment",
-                    "UI",
-                    "Other"
-                  ]
-                },
-                {
-                  "key": "due_date",
-                  "label": "Due Date",
-                  "type": "date"
-                },
-                {
-                  "key": "tags",
-                  "label": "Tags",
-                  "type": "tag-list"
-                }
-              ]
-            },
-            {
-              "id": "task-card",
-              "name": "Sprint Task",
-              "fields": [
-                {
-                  "key": "title",
-                  "label": "Task Name",
-                  "type": "text",
-                  "required": true
-                },
-                {
-                  "key": "description",
-                  "label": "Details",
-                  "type": "textarea"
-                },
-                {
-                  "key": "story_points",
-                  "label": "Story Points",
-                  "type": "dropdown",
-                  "options": [
-                    "1",
-                    "2",
-                    "3",
-                    "5",
-                    "8"
-                  ]
-                },
-                {
-                  "key": "assigned_to",
-                  "label": "Assigned To",
-                  "type": "text"
-                },
-                {
-                  "key": "tags",
-                  "label": "Tags",
-                  "type": "tag-list"
-                }
-              ]
-            },
-            {
-              "id": "simple-card",
-              "name": "Simple Card",
-              "fields": [
-                {
-                  "key": "title",
-                  "label": "Task",
-                  "type": "text",
-                  "required": true
-                },
-                {
-                  "key": "tags",
-                  "label": "Tags",
-                  "type": "tag-list"
-                }
-              ]
-            },
-            {
-              "id": "default-card",
-              "name": "Default Card",
-              "fields": [
-                {
-                  "key": "title",
-                  "label": "Title",
-                  "type": "text",
-                  "required": true
-                },
-                {
-                  "key": "description",
-                  "label": "Description",
-                  "type": "textarea"
-                },
-                {
-                  "key": "tags",
-                  "label": "Tags",
-                  "type": "tag-list"
-                }
-              ]
-            }
-          ]
-        },
-        "modified": "Mon May 12 2025 21:25:22 GMT-0300 (Argentina Standard Time)",
         "_id": "ProjectSettings",
-        "_rev": "2-30f7c16146c26c2a2af1fb12a6107f23"
+        "_rev": "3-b9d0e737923606096d6f174d1c5bd9c0"
       }
     },
     {
@@ -5513,7 +5019,7 @@
       "id": "bc81dca9-283b-4a05-8910-eb21dff3d229",
       "key": "bc81dca9-283b-4a05-8910-eb21dff3d229",
       "value": {
-        "rev": "1-dfb37ad4389b23f48d4aa5a27a2cd5f8"
+        "rev": "5-481f657c6b75bed82e8e4649f008d663"
       },
       "doc": {
         "name": "Sword",
@@ -5538,7 +5044,7 @@
         "properties": "The most powerful sword in the world.\nIt is not driven by any stone, but by feelings.\nIt is activated in the end by love.",
         "editorLanguage": "toml",
         "_id": "bc81dca9-283b-4a05-8910-eb21dff3d229",
-        "_rev": "1-dfb37ad4389b23f48d4aa5a27a2cd5f8"
+        "_rev": "5-481f657c6b75bed82e8e4649f008d663"
       }
     },
     {
@@ -6203,7 +5709,7 @@
       "id": "c91c2157-608e-44b5-af61-2d4b5c548851",
       "key": "c91c2157-608e-44b5-af61-2d4b5c548851",
       "value": {
-        "rev": "1-5dc447472f69b01c655b95856b6dac4c"
+        "rev": "4-86a4a3aa5ce318ff66c7a50d26de5c34"
       },
       "doc": {
         "name": "goToLibrary",
@@ -6228,7 +5734,7 @@
         "scriptEditorMode": "text",
         "editorMode": "text",
         "_id": "c91c2157-608e-44b5-af61-2d4b5c548851",
-        "_rev": "1-5dc447472f69b01c655b95856b6dac4c"
+        "_rev": "4-86a4a3aa5ce318ff66c7a50d26de5c34"
       }
     },
     {
@@ -6373,7 +5879,7 @@
       "id": "def85e10-54b4-4f4e-9311-5c53699446c0",
       "key": "def85e10-54b4-4f4e-9311-5c53699446c0",
       "value": {
-        "rev": "1-d7bae081ed221070402404429148f14c"
+        "rev": "12-dfd819a0a2125ade4750cb4fb2dec4d8"
       },
       "doc": {
         "name": "Forest",
@@ -6398,14 +5904,14 @@
         "properties": "A place full of animals and magic.\nThe place where Aries lives and where the protagonist will meet her.",
         "editorLanguage": "text",
         "_id": "def85e10-54b4-4f4e-9311-5c53699446c0",
-        "_rev": "1-d7bae081ed221070402404429148f14c"
+        "_rev": "12-dfd819a0a2125ade4750cb4fb2dec4d8"
       }
     },
     {
       "id": "e5eb7470-a4fa-4197-bfc7-857d0535e168",
       "key": "e5eb7470-a4fa-4197-bfc7-857d0535e168",
       "value": {
-        "rev": "1-6faebdd201e45f524649c3c0d80d4530"
+        "rev": "5-f763a03a1efc0a67d965e68b1f6ff976"
       },
       "doc": {
         "name": "The Heart's Awakening",
@@ -6430,7 +5936,7 @@
         "alias": "zettabyte",
         "editorLanguage": "hjson",
         "_id": "e5eb7470-a4fa-4197-bfc7-857d0535e168",
-        "_rev": "1-6faebdd201e45f524649c3c0d80d4530"
+        "_rev": "5-f763a03a1efc0a67d965e68b1f6ff976"
       }
     },
     {
@@ -6503,7 +6009,7 @@
       "id": "eb8dd128-63ee-4a07-ab5e-c02d1650bbb2",
       "key": "eb8dd128-63ee-4a07-ab5e-c02d1650bbb2",
       "value": {
-        "rev": "1-a5c7656254cd11b19e7a96c79a92a63f"
+        "rev": "4-828428a168d17449b050dec8271a11be"
       },
       "doc": {
         "name": "Half dog, half rabbit",
@@ -6528,7 +6034,7 @@
         "properties": "An animal that gets lost.\nReally cute and adorable.\nBrings Aries and Kenji closer.",
         "editorLanguage": "hjson",
         "_id": "eb8dd128-63ee-4a07-ab5e-c02d1650bbb2",
-        "_rev": "1-a5c7656254cd11b19e7a96c79a92a63f"
+        "_rev": "4-828428a168d17449b050dec8271a11be"
       }
     },
     {

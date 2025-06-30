@@ -107,6 +107,9 @@ function applyMigrations(data) {
   for (const dialogue of dialogues) {
     const { doc } = dialogue;
     const g = doc.graph;
+    if (!doc.graph) {
+      continue;
+    }
     doc.content = {
       tree: {
         nodes: g.nodes.map((node) => ({

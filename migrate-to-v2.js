@@ -40,6 +40,19 @@ fs.readFile(inputFilePath, "utf8", (err, data) => {
 });
 
 function applyMigrations(data) {
+  // First remove any remote replication data from the ProjectSettings doc (In v2 this is a local setting, not replicated )
+  // delete these keys: "remoteDbEnabled" "remoteDbUrl" "remoteDbUsername" "remoteDbPassword":  remoteDbSyncInterval": 3
+
+  const projectSettingsDocs = data.rows.filter((row) => row.doc?._id === "ProjectSettings");
+  for (const projectSettingsDoc of projectSettingsDocs) {
+    const { doc } = projectSettingsDoc;
+    delete doc.remoteDbEnabled;
+    delete doc.remoteDbUrl;
+    delete doc.remoteDbUsername;
+    delete doc.remoteDbPassword;
+    delete doc.remoteDbSyncInterval;
+  }
+
   /** GDD:
    * content now lives under content.gdd;
    * */

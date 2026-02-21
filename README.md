@@ -4,6 +4,11 @@ Small sample projects and utilities for [Drafft](https://drafft.dev).
 
 ## Projects
 
+### The Garden of Fading Memories
+
+Creator: Alexis Boni.
+Description: The project highlights variables, scenarios, scripts, port scripts, actors, grids, items, and a GDD—providing a complete sample of Drafft’s v2.4.0 workflow from story design to playable dialogue.
+
 ### The goddess of fate
 
 Writer: boghdanwrites.  
